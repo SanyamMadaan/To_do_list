@@ -12,11 +12,7 @@ function addtodo(item){
   listitem.innerHTML=`${item}
   <i class="fas fa-times"></i>
   `;
-  //document.querySelector('#trash');
-  //trash.addEventListener("click",function(){
-  //  listitem.remove();
-  //})
-
+  
 listitem.addEventListener("click",function(){
   this.classList.toggle("done");
  })
